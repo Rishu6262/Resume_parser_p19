@@ -1,4 +1,6 @@
+#streamlit
+#pymupdf
+#spacy==3.7.2
+#numpy==1.26.4
 streamlit
 pymupdf
-spacy==3.7.2
-numpy==1.26.4
