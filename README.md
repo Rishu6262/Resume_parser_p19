@@ -310,7 +310,7 @@ This project demonstrates how Natural Language Processing and Artificial Intelli
 
 **Rishu Gurjar**
 
-Aspiring Data Scientist | Machine Learning Enthusiast | Python Developer
+Aspiring Data Science | Machine Learning Enthusiast | Python Developer
 
 ### Skills
 
