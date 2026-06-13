@@ -292,6 +292,51 @@ Through this project, I learned:
 
 ---
 
+# 🚧 Project Status
+
+This project is currently under development and serves as a learning-focused implementation of Resume Parsing using Natural Language Processing (NLP).
+
+The core functionalities such as text extraction, email detection, phone number extraction, skill identification, and Named Entity Recognition (NER) have been implemented and tested successfully. However, some advanced features and deployment-related issues are still being optimized.
+
+---
+
+### Current Progress
+
+✅ Resume Text Extraction
+
+✅ Email Extraction
+
+✅ Phone Number Detection
+
+✅ Skill Extraction Using NLP
+
+✅ Named Entity Recognition (SpaCy)
+
+✅ Streamlit User Interface
+
+⚠ Experience Extraction Needs Improvement
+
+⚠ Organization Detection Needs Optimization
+
+⚠ Some Resume Formats May Produce Inconsistent Results
+
+⚠ Production Deployment Not Yet Completed
+
+---
+
+### Future Work
+
+* Improve Experience Detection
+* Better Organization Extraction
+* Support More Resume Formats
+* ATS Score Calculation
+* Resume Ranking System
+* Job Description Matching
+* Complete Deployment Pipeline
+
+This project was developed primarily to learn and explore NLP, Information Extraction, Resume Parsing, SpaCy, Regex, and Streamlit application development.
+
+
 # 📜 Disclaimer
 
 This project is developed for educational and research purposes only.
