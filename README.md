@@ -172,135 +172,123 @@ Resume_Parser_Project/
 
 ---
 
-# 🔍 Workflow
+# 🔄 Project Workflow
 
-### Step 1: Upload Resume
+The AI Resume Parser follows a structured **Natural Language Processing (NLP)** pipeline to transform unstructured resume documents into structured candidate information.
 
-The user uploads a resume file.
+### 📤 Step 1: Resume Upload
 
-Supported Formats:
-
-* PDF
-* DOCX
+- Upload resume in **PDF** format.
+- Validate the uploaded document before processing.
 
 ---
 
-### Step 2: Extract Text
+### 📄 Step 2: Text Extraction
 
-The system extracts text using:
-
-```python
-PyMuPDF (fitz)
-```
+- Extract textual content from the uploaded resume using **PyMuPDF (fitz)**.
+- Preserve the readable content for further NLP processing.
 
 ---
 
-### Step 3: Text Processing
+### 🧹 Step 3: Text Preprocessing
 
-Text preprocessing includes:
+The extracted text is cleaned and normalized through:
 
-* Cleaning text
-* Removing unnecessary characters
-* Lowercase conversion
-
----
-
-### Step 4: Information Extraction
-
-Using:
-
-* Regex
-* SpaCy NER
-
-The system extracts:
-
-* Email
-* Phone Number
-* Skills
-* Name
-* Experience
+- Removing unwanted characters and symbols
+- Eliminating extra spaces and blank lines
+- Text normalization
+- Pattern preparation for NLP
 
 ---
 
-### Step 5: Structured Output
+### 🧠 Step 4: Information Extraction
 
-The extracted information is displayed in JSON format.
+The system applies **Regular Expressions (Regex)** and **SpaCy Named Entity Recognition (NER)** to identify and extract:
+
+- 👤 Candidate Name
+- 📧 Email Address
+- 📱 Phone Number
+- 💻 Technical Skills
+- 💼 Work Experience
+- 🏢 Organizations
+- 🎓 Education
+- 🚀 Projects
+- 📜 Certifications
+
+---
+
+### 📊 Step 5: Structured Output
+
+The extracted information is organized into a structured format (JSON) for easy analysis and integration with recruitment systems.
 
 Example:
 
 ```json
 {
-  "Email": "example@gmail.com",
+  "Name": "John Doe",
+  "Email": "john@gmail.com",
   "Phone": "9876543210",
   "Skills": ["Python", "Machine Learning", "SQL"],
-  "Companies": [],
-  "Experience": "2 Years"
+  "Education": "B.Tech Computer Science",
+  "Experience": "2 Years",
+  "Organizations": ["ABC Technologies"]
 }
 ```
 
 ---
 
-# 🤖 NLP Techniques Used
+# 🧠 NLP Techniques Used
 
-## Regular Expressions (Regex)
+The project utilizes several Natural Language Processing techniques to extract meaningful information from resumes.
 
-Used for:
-
-* Email Extraction
-* Phone Number Extraction
-
-Example:
-
-```python
-re.findall()
-```
+| Technique | Purpose |
+|-----------|---------|
+| 🏷 Named Entity Recognition (NER) | Detect names, organizations, and locations |
+| 🔍 Regular Expressions (Regex) | Extract email addresses and phone numbers |
+| 📄 Text Extraction | Extract text from PDF resumes |
+| 🧹 Text Cleaning | Remove unnecessary characters and normalize text |
+| 📊 Information Extraction | Convert unstructured text into structured data |
+| 🔎 Pattern Matching | Detect predefined resume patterns |
 
 ---
 
-## SpaCy Named Entity Recognition (NER)
+# 🌐 Streamlit Web Application
 
-Used for:
+The project includes an interactive **Streamlit** interface that enables users to upload resumes and instantly view extracted information.
 
-* Person Name Detection
-* Organization Detection
-* Location Detection
+### 🚀 User Features
 
-Example:
+- 📤 Upload Resume
+- 🔍 Process Resume
+- 📊 View Structured Information
+- 📄 Display Extracted Candidate Details
+- ⚡ Fast and User-Friendly Interface
 
-```python
-nlp = spacy.load("en_core_web_sm")
-```
+### 📋 Output Includes
 
----
-
-# 💻 Streamlit Application
-
-The project includes a user-friendly Streamlit interface.
-
-### User Actions
-
-* Upload Resume
-* Process Resume
-* View Extracted Information
-
-### Output
-
-* Name
-* Email
-* Phone Number
-* Skills
-* Experience
-* Organizations
+- 👤 Candidate Name
+- 📧 Email Address
+- 📱 Phone Number
+- 💻 Technical Skills
+- 💼 Experience
+- 🏢 Organizations
+- 🎓 Education
+- 🚀 Projects
+- 📜 Certifications
 
 ---
 
-# 📈 Benefits of the Project
+# 🌟 Project Benefits
 
-* Automates resume screening
-* Saves recruiter time
-* Reduces manual effort
-* Improves candidate shortlisting
-* Demonstrates NLP capabilities
+The AI Resume Parser provides several advantages for recruiters and organizations:
+
+- ⏱ Automates resume screening
+- 🚀 Reduces manual effort
+- 📄 Converts unstructured resumes into structured data
+- 🎯 Improves candidate shortlisting
+- 🤖 Demonstrates practical AI and NLP applications
+- 📊 Supports HR Analytics and Recruitment Automation
+- ⚡ Speeds up the hiring process
 
 ---
 
@@ -309,7 +297,13 @@ The project includes a user-friendly Streamlit interface.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/resume-parser.git
+git clone https://github.com/yourusername/AI-Resume-Parser-Using-NLP.git
+```
+
+### Navigate to the Project Folder
+
+```bash
+cd AI-Resume-Parser-Using-NLP
 ```
 
 ### Install Dependencies
@@ -318,7 +312,7 @@ git clone https://github.com/yourusername/resume-parser.git
 pip install -r requirements.txt
 ```
 
-### Run Application
+### Run the Application
 
 ```bash
 streamlit run app.py
@@ -338,103 +332,107 @@ pandas
 
 ---
 
-# 🎯 Learning Outcomes
+# 🎓 Learning Outcomes
 
-Through this project, I learned:
+Through this project, the following concepts and skills were developed:
 
-* Natural Language Processing
-* Named Entity Recognition
-* Resume Parsing
-* Regex Pattern Matching
-* Information Extraction
-* Document Processing
-* Streamlit Deployment
-* AI-Powered Recruitment Systems
+- 🧠 Natural Language Processing (NLP)
+- 🏷 Named Entity Recognition (NER)
+- 🔍 Regular Expressions (Regex)
+- 📄 Resume Parsing
+- 📊 Information Extraction
+- 📑 PDF Document Processing
+- 🧹 Text Preprocessing
+- 🌐 Streamlit Application Development
+- 🤖 AI-Powered Recruitment Automation
+- 💻 Python Development
 
 ---
 
-# 🔮 Future Improvements
+# 🚀 Future Improvements
 
-* Resume Ranking System
-* ATS Score Calculator
-* Job Description Matching
-* Resume Classification
-* Candidate Recommendation System
-* Multiple Language Support
+The project can be enhanced with additional AI-powered features such as:
+
+- 📊 ATS Score Calculator
+- 🎯 Resume Ranking System
+- 📄 Job Description Matching
+- 🤖 Candidate Recommendation System
+- 🌍 Multi-language Resume Support
+- ☁ Cloud Deployment
+- 📥 Bulk Resume Processing
+- 🧠 Transformer-based NLP Models (BERT/LLMs)
+- 📈 Resume Analytics Dashboard
+- 🔗 Integration with HR Management Systems
 
 ---
 
 # 🚧 Project Status
 
-This project is currently under development and serves as a learning-focused implementation of Resume Parsing using Natural Language Processing (NLP).
+**Status:** 🚧 **Under Active Development**
 
-The core functionalities such as text extraction, email detection, phone number extraction, skill identification, and Named Entity Recognition (NER) have been implemented and tested successfully. However, some advanced features and deployment-related issues are still being optimized.
+### ✅ Completed Features
 
----
+- Resume Text Extraction
+- Email Detection
+- Phone Number Extraction
+- Skill Extraction
+- Named Entity Recognition (SpaCy)
+- Streamlit User Interface
+- Structured JSON Output
 
-### Current Progress
+### ⚠ Current Limitations
 
-✅ Resume Text Extraction
-
-✅ Email Extraction
-
-✅ Phone Number Detection
-
-✅ Skill Extraction Using NLP
-
-✅ Named Entity Recognition (SpaCy)
-
-✅ Streamlit User Interface
-
-⚠ Experience Extraction Needs Improvement
-
-⚠ Organization Detection Needs Optimization
-
-⚠ Some Resume Formats May Produce Inconsistent Results
-
-⚠ Production Deployment Not Yet Completed
+- Experience extraction requires further improvement
+- Organization detection can be enhanced
+- Some resume layouts may affect extraction accuracy
+- Production deployment is in progress
 
 ---
-
-### Future Work
-
-* Improve Experience Detection
-* Better Organization Extraction
-* Support More Resume Formats
-* ATS Score Calculation
-* Resume Ranking System
-* Job Description Matching
-* Complete Deployment Pipeline
-
-This project was developed primarily to learn and explore NLP, Information Extraction, Resume Parsing, SpaCy, Regex, and Streamlit application development.
-
 
 # 📜 Disclaimer
 
-This project is developed for educational and research purposes only.
+This project has been developed for **educational**, **learning**, and **portfolio** purposes only.
 
-The extracted information depends on the structure and quality of the uploaded resume. Results may vary for different resume formats and layouts.
+The accuracy of extracted information depends on the structure, formatting, and quality of the uploaded resume. Different resume templates may produce varying extraction results. This application should not be considered a replacement for professional Applicant Tracking Systems (ATS).
 
 ---
 
 # ✅ Conclusion
 
-This project demonstrates how Natural Language Processing and Artificial Intelligence can automate resume analysis by extracting important candidate information from unstructured documents. The system improves recruitment efficiency and showcases the practical use of NLP, SpaCy, Regex, and Streamlit in HR and talent acquisition applications.
+The **AI Resume Parser Using NLP** demonstrates how **Artificial Intelligence** and **Natural Language Processing** can automate resume analysis by transforming unstructured resume documents into structured candidate information.
+
+By integrating **SpaCy**, **Regular Expressions (Regex)**, **PyMuPDF**, and **Streamlit**, the system efficiently extracts key details such as **Name**, **Email**, **Phone Number**, **Skills**, **Education**, **Experience**, **Organizations**, **Projects**, and **Certifications**, significantly reducing manual screening efforts.
+
+This project showcases practical expertise in **Python**, **Natural Language Processing**, **Information Extraction**, **Named Entity Recognition (NER)**, **Document Processing**, and **Interactive Web Application Development**, making it an excellent portfolio project for aspiring **Machine Learning Engineers**, **NLP Engineers**, **AI Engineers**, **Python Developers**, and **Data Scientists**.
 
 ---
 
 # 👨‍💻 Author
 
-**Rishu Gurjar**
+## Rishu Gurjar
 
-Aspiring Data Science | Machine Learning Enthusiast | Python Developer
+🎓 **B.Tech Computer Science Engineering Student**
 
-### Skills
+💻 **Python Developer | Data Analyst | Machine Learning Enthusiast | Deep Learning Learner | NLP Enthusiast | Generative AI Enthusiast**
 
-* Python
-* Machine Learning
-* Deep Learning
-* NLP
-* SQL
-* Streamlit
-* Data Analysis
+I am passionate about building intelligent applications using **Python**, **Machine Learning**, **Deep Learning**, **Natural Language Processing (NLP)**, **Generative AI**, and **Data Analytics**. I enjoy developing end-to-end AI solutions, intelligent automation systems, and interactive web applications that solve real-world business problems.
+
+### 🚀 Technical Skills
+
+- 🐍 Python
+- 🤖 Machine Learning
+- 🧠 Natural Language Processing (NLP)
+- 📊 Data Analysis
+- 🔍 Regular Expressions (Regex)
+- 🏷 Named Entity Recognition (NER)
+- 🌐 Streamlit
+- 🗄 SQL
+- 🔗 Git & GitHub
+
+### 📬 Connect With Me
+
+- 💻 GitHub: **https://github.com/Rishu6262**
+- 💼 LinkedIn: **https://www.linkedin.com/in/rishu-gurjar-58072a333/**
+- 📊 Kaggle: **https://www.kaggle.com/rishugurjar**
+
+⭐ **If you found this project useful, consider giving it a Star on GitHub!**
