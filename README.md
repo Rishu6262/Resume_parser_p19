@@ -68,54 +68,92 @@ The primary objective of this project is to develop an intelligent **AI-powered 
 
 ---
 
-# 📊 Features Extracted
+# 📊 Information Extracted
 
-The system can identify:
+The **AI Resume Parser** intelligently analyzes unstructured resume documents and extracts key candidate information using **Natural Language Processing (NLP)**, **Named Entity Recognition (NER)**, and **Regular Expressions (Regex)**. The extracted information is organized into a structured format, making resume screening faster and more efficient.
 
-### Personal Information
+## 👤 Personal Information
 
-* Candidate Name
-* Email Address
-* Phone Number
+The system automatically extracts:
 
-### Professional Information
-
-* Skills
-* Experience
-* Organizations
-* Education Details
-
-### Additional Information
-
-* Projects
-* Certifications
-* Technical Skills
+- 👤 Candidate Name
+- 📧 Email Address
+- 📱 Phone Number
+- 📍 Location *(when available)*
 
 ---
 
-# 🛠 Technologies Used
+## 💼 Professional Information
 
-### Programming Language
+The parser identifies important career-related details, including:
 
-* Python
-
-### Libraries
-
-* SpaCy
-* Regex (re)
-* PyMuPDF (fitz)
-* Streamlit
-* Pandas
-* NumPy
-
-### NLP Techniques
-
-* Named Entity Recognition (NER)
-* Text Extraction
-* Pattern Matching
-* Information Retrieval
+- 💻 Technical Skills
+- 🏢 Work Experience
+- 🏛️ Organizations / Companies
+- 🎓 Educational Qualifications
+- 💼 Job Titles *(when available)*
 
 ---
+
+## 📂 Additional Information
+
+The system can also extract:
+
+- 🚀 Projects
+- 📜 Certifications
+- 🛠️ Programming Languages
+- ⚙️ Tools & Technologies
+- 📚 Frameworks & Libraries
+- 🔬 Areas of Expertise
+
+---
+
+# 🛠️ Technologies Used
+
+The project leverages modern **Artificial Intelligence**, **Natural Language Processing (NLP)**, and **Python** libraries to build an intelligent resume parsing system.
+
+## 💻 Technology Stack
+
+| Category | Technology | Purpose |
+|----------|------------|---------|
+| 🐍 Programming Language | Python | Core programming language for application development |
+| 🧠 NLP Library | SpaCy | Named Entity Recognition (NER) and linguistic processing |
+| 🔍 Pattern Matching | Regex (`re`) | Email, phone number, and custom pattern extraction |
+| 📄 PDF Processing | PyMuPDF (`fitz`) | Extracting text from PDF resumes |
+| 📊 Data Processing | Pandas | Organizing and processing extracted information |
+| 🔢 Numerical Computing | NumPy | Efficient numerical operations and data handling |
+| 🌐 Web Framework | Streamlit | Interactive web application for resume parsing |
+| 🔗 Version Control | Git & GitHub | Source code management and collaboration |
+
+---
+
+## 🧠 NLP Techniques Used
+
+The project incorporates several Natural Language Processing techniques:
+
+- 🏷️ Named Entity Recognition (NER)
+- 📄 Resume Text Extraction
+- 🔍 Regular Expression (Regex) Pattern Matching
+- 🧹 Text Cleaning & Normalization
+- 📊 Information Extraction
+- 📑 Document Parsing
+- 📝 Keyword Identification
+- 🔎 Rule-Based Entity Recognition
+
+---
+
+## 🚀 Technical Skills Demonstrated
+
+- 🐍 Python Programming
+- 🤖 Artificial Intelligence (AI)
+- 🧠 Natural Language Processing (NLP)
+- 🏷️ Named Entity Recognition (NER)
+- 🔍 Regular Expressions (Regex)
+- 📄 PDF Document Processing
+- 📊 Data Processing & Analysis
+- 🌐 Streamlit Application Development
+- 📑 Information Extraction
+- 🔗 Git & GitHub Version Control
 
 # 📂 Project Structure
 
