@@ -2,12 +2,31 @@
 
 ## 📌 Project Overview
 
-The AI Resume Parser is a Natural Language Processing (NLP) project that automatically extracts important information from resumes and converts unstructured resume documents into structured data.
+The **AI Resume Parser Using Natural Language Processing (NLP)** is an **End-to-End Artificial Intelligence** project designed to automatically extract meaningful information from resumes and convert unstructured resume documents into structured, machine-readable data. The project streamlines the resume screening process by leveraging **Natural Language Processing (NLP)** techniques to identify and organize essential candidate information.
 
-The system uses NLP, Regular Expressions (Regex), SpaCy, and Python to identify candidate details such as name, email address, phone number, skills, experience, and organizations from uploaded resumes.
+The system utilizes **Python**, **SpaCy**, **Regular Expressions (Regex)**, **PyMuPDF**, and **Streamlit** to extract important details such as **candidate name**, **email address**, **phone number**, **technical skills**, **education**, **work experience**, **organizations**, **projects**, and **certifications** from uploaded resume files.
 
-This project demonstrates the practical application of Artificial Intelligence and NLP in recruitment and HR automation.
+Before information extraction, the resume text is processed through a series of **text preprocessing** steps, including document parsing, text cleaning, normalization, and pattern matching. Advanced **Named Entity Recognition (NER)** techniques are then applied to recognize and classify key entities, enabling accurate extraction of candidate information.
 
+The extracted data is presented in a structured format, making it easier for recruiters, HR professionals, and Applicant Tracking Systems (ATS) to analyze candidate profiles efficiently. By automating the resume screening process, the system significantly reduces manual effort, improves recruitment efficiency, and accelerates the candidate shortlisting process.
+
+This project demonstrates practical expertise in **Artificial Intelligence**, **Natural Language Processing (NLP)**, **Information Extraction**, **Named Entity Recognition (NER)**, **Document Processing**, **Python Development**, and **Interactive Web Application Development**, making it an excellent portfolio project for aspiring **AI Engineers**, **Machine Learning Engineers**, **NLP Engineers**, **Python Developers**, and **Data Scientists**.
+
+---
+
+## ✨ Key Features
+
+- 📄 Automatic Resume Parsing
+- 🧠 Natural Language Processing (NLP)
+- 🏷️ Named Entity Recognition (NER)
+- 📧 Email & Phone Number Extraction
+- 👨‍💻 Technical Skill Detection
+- 🎓 Education & Experience Extraction
+- 🏢 Organization Identification
+- 📂 Project & Certification Detection
+- 📊 Structured JSON Output
+- 🌐 Interactive Streamlit Web Application
+- 🚀 Deployment Ready
 ---
 
 # ❓ Why I Chose This Project?
