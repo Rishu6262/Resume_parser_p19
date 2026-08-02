@@ -1,3 +1,7 @@
+# This project currently working off now some issues so i work on future . This is uncompletely project 
+### Thanks
+---
+
 # 📄 AI Resume Parser Using NLP
 
 ## 📌 Project Overview
