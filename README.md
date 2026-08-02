@@ -47,13 +47,24 @@ The **AI Resume Parser Using NLP** addresses this challenge by automatically ext
 - 🚀 Develop an end-to-end NLP project that solves a real-world business problem.
 - 💻 Strengthen practical skills in **Python**, **Artificial Intelligence**, **Natural Language Processing**, and **Document Processing**.
 
-# 🚀 Project Objectives
+# 🎯 Project Objectives
 
-* Extract information automatically from resumes.
-* Reduce manual resume screening efforts.
-* Identify candidate skills efficiently.
-* Convert unstructured text into structured data.
-* Demonstrate NLP-based information extraction.
+The primary objective of this project is to develop an intelligent **AI-powered Resume Parser** that automatically extracts meaningful information from unstructured resume documents using **Natural Language Processing (NLP)** and **Named Entity Recognition (NER)**. The system aims to simplify the recruitment process by converting resume data into a structured format suitable for analysis and candidate evaluation.
+
+### ⭐ Key Objectives
+
+- 📄 Automatically extract essential information from resumes with high accuracy.
+- 📧 Identify candidate details such as **Name**, **Email Address**, and **Phone Number**.
+- 💻 Detect technical skills, programming languages, frameworks, and tools.
+- 💼 Extract work experience, organizations, and employment history.
+- 🎓 Identify educational qualifications, certifications, and projects.
+- 🔄 Convert unstructured resume text into structured, machine-readable data.
+- 🧠 Apply **Natural Language Processing (NLP)** and **Named Entity Recognition (NER)** techniques for intelligent information extraction.
+- 🔍 Utilize **Regular Expressions (Regex)** for pattern-based data extraction.
+- ⏱️ Reduce manual resume screening time and improve recruitment efficiency.
+- 🌐 Develop an interactive **Streamlit** application for real-time resume parsing.
+- 🚀 Build a deployment-ready AI solution for HR Automation and Applicant Tracking Systems (ATS).
+- 💻 Strengthen practical skills in **Python**, **Artificial Intelligence**, **Natural Language Processing**, **Information Extraction**, and **Document Processing** through a real-world application.
 
 ---
 
